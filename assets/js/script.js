@@ -68,7 +68,7 @@ $(document).ready(function () {
 //         }
 //     });
 
-
+    
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
     strings: ["Data Analytics", "", "Machine Learning Development", "Project Management"],
