@@ -58,18 +58,18 @@ document.onkeydown = function(e) {
      return false;
   }
   if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
-     return false;
+     return false;s
   }
 }
 
-document.addEventListener('visibilitychange',
-function(){
-    if(document.visibilityState === "visible"){
-        document.title = "Experience | Portfolio Jigar Sable";
-        $("#favicon").attr("href","/assets/images/favicon.png");
-    }
-    else {
-        document.title = "Come Back To Portfolio";
-        $("#favicon").attr("href","/assets/images/favhand.png");
-    }
-});
+// document.addEventListener('visibilitychange',
+// function(){
+//     if(document.visibilityState === "visible"){
+//         document.title = "Experience | Portfolio Jigar Sable";
+//         $("#favicon").attr("href","/assets/images/favicon.png");
+//     }
+//     else {
+//         document.title = "Come Back To Portfolio";
+//         $("#favicon").attr("href","/assets/images/favhand.png");
+//     }
+// });
